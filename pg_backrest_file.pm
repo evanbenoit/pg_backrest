@@ -3,11 +3,11 @@
 ####################################################################################################################################
 package pg_backrest_file;
 
-use Moose;
+#use Moose;
 use strict;
 use warnings;
 use Carp;
-use Net::OpenSSH;
+#use Net::OpenSSH;
 use IPC::Open3;
 use File::Basename;
 use IPC::System::Simple qw(capture);
